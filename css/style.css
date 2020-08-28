@@ -1,0 +1,192 @@
+body{
+padding:0;
+margin: 0;
+box-sizing: border-box;
+font-family: "Poppins";
+font-size: 18px; 
+}
+header{
+	background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    height: 270px;
+    text-align: center;
+}
+.logo-img{
+	padding: 50px;
+	margin-top: 50px;
+}
+h1._sect{
+	font-size: 40px;
+	text-align: center;
+}
+p.bet{
+	text-align: center;
+	margin-top: -20px;
+}
+div.but{
+	text-align: center;
+	margin-top: 30px;
+	position: relative;
+}
+button.but1{
+	padding: 10px 30px;
+	border-radius: 24px;
+	background-color: hsl(171, 66%, 44%);
+}
+button.but2{
+	padding: 10px 30px;
+	border-radius: 24px;
+	background-color: hsl(233, 100%, 69%);
+	margin-left: 20px;
+
+}
+div.key{
+	text-align: center;
+	margin-top: 100px;
+}
+h1.kat{
+	font-size: 30px;
+}
+.sectC {
+    margin-top: 95px;
+    display: flex;
+}
+.sectC-i {
+    margin-left: -29px;
+}
+.sectC-img{
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.sectC-content {
+    margin-left: 80px;
+    margin-top: 60px;
+}
+li {
+    list-style: none;
+}
+.sectC-title {
+    font-size: 24px;
+    color: hsl(210, 10%, 33%);
+}
+.sectC-desc {
+    font-size: 16px;
+    color: hsl(210, 10%, 33%);
+    margin-top: -15px;
+}
+.sectD {
+    margin-top: 120px;
+}
+.sectD-content {
+    text-align: center;
+}
+.sectD-title {
+    color: hsl(210, 10%, 33%);
+    font-size: 35px;
+}
+.sectD-desc {
+    color: hsl(210, 10%, 33%);
+    margin-top: -9px;
+}
+.sectE {
+    text-align: center;
+    margin-top: 60px;
+}
+.sectF {
+    text-align: center;
+    margin-top: 40px;
+}
+.sectF-title {
+    color: hsl(210, 10%, 33%);
+    font-size: 35px;
+}
+.sectF-desc {
+    color: hsl(210, 10%, 33%);
+}
+.sectG {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.sectG-content {
+    padding: 20px;
+    color: hsl(210, 10%, 33%);
+}
+.sectG-title {
+    margin-top: 14px;
+}
+.sectH {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.sectH-img {
+    padding: 56px;
+}
+.sectI-content {
+    text-align: center;
+    margin-top: 40px;
+}
+.sectI-title {
+    margin-top: -2px;
+    font-size: 35px;
+    color: hsl(210, 10%, 33%);
+}
+.sectI-desc {
+    font-size: 18px;
+    margin-top: -2px;
+    color: hsl(210, 10%, 33%);
+}
+.btn-logo {
+    margin-top: 29px;
+}
+.btn-first {
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    width: 160px;
+    padding: 12px;
+    border-radius: 20px;
+    border: hsl(171, 66%, 44%);
+    margin-right: 20px;
+}
+.btn-second {
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    width: 160px;
+    padding: 12px;
+    border-radius: 20px;
+    border: hsl(233, 100%, 69%);
+}
+.sectJ {
+    background-color: rgb(233, 230, 230);
+    width: 100%;
+    height: auto;
+}
+.sectJ-content {
+    display: flex;
+    margin-top: 120px;
+    margin-left: 95px;
+}
+.sectJ-c {
+    padding: 15px;
+}
+.foot3 {
+    padding: 8px;
+}
+li {
+    list-style: none;
+}
+.sectJ-d {
+    margin-left: 300px;
+}
+.foot-image {
+    display: flex;
+    margin-top: 50px;
+}
+li {
+    list-style: none;
+}
+.foot2 {
+    padding: 8px;
+}
