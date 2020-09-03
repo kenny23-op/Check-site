@@ -33,6 +33,7 @@ button.but1{
 	border-radius: 24px;
 	background-color: hsl(171, 66%, 44%);
     border: hsl(171, 66%, 44%);
+    color: white;
 }
 button.but2{
 	padding: 10px 30px;
@@ -40,6 +41,7 @@ button.but2{
 	background-color: hsl(233, 100%, 69%);
 	margin-left: 20px;
     border: hsl(233, 100%, 69%);
+    color: white;
 
 }
 div.key{
@@ -59,7 +61,8 @@ h1.kat{
 .sectC-img{
     font-size: 18px;
     font-family: 'Bai Jamjuree', sans-serif;
-    width: 600px;
+    width: 500px;
+    margin-left: 80px;
 }
 .sectC-content {
     margin-left: 80px;
@@ -94,6 +97,9 @@ li {
 .sectE {
     text-align: center;
     margin-top: 60px;
+}
+.sectE-img{
+    width:600px;
 }
 .sectF {
     text-align: center;
@@ -173,6 +179,10 @@ li {
 }
 .sectJ-c {
     padding: 15px;
+}
+.foot-img{
+    width: 60px;
+    margin-top: 20px;
 }
 .foot3 {
     padding: 8px;
