@@ -4,43 +4,59 @@ padding:0;
 margin: 0;
 box-sizing: border-box;
 font-family: "Bai Jamjuree"; 
+
 }
 header {
     background-image: url(../images/bg-header-desktop.png);
     background-repeat: no-repeat;
     height: 150px;
     text-align: center;
+   
 }
 .logo-img {
     margin: 30px;
     width: 50px;
+    
+}
+.sectB {
+    overflow-x: hidden;
 }
 h1._sect {
     text-align: center;
-    font-size: 30px;
- /* margin-left: 80px; */
+    font-size: 45px;
+    /* margin-left: 80px; */
 }
+
 p.bet {
     text-align: center;
     margin-top: 10px;
-    font-size: 28px;
+    font-size: 22px;
+}
+.sectK{
+    overflow-x: hidden;
+    display: block;
+    }
+.h1.kat {
+    font-size: 40px;
 }
 div.key {
-    font-size: 22px;
+    font-size: 24px;
     text-align: center;
     margin-top: 100px;
 }
-.sectC-title {
-    font-size: 14px;
-    color: hsl(210, 10%, 33%);
-    font-size: 22px;
+.sectC {
+    margin-top: 95px;
+    display: block;
+    overflow-x: hidden;
 }
+
 button.but1 {
     padding: 10px 15px;
     border-radius: 24px;
     background-color: hsl(171, 66%, 44%);
     border: hsl(171, 66%, 44%);
     color: white;
+    
 }
 button.but2 {
     padding: 10px 15px;
@@ -49,48 +65,73 @@ button.but2 {
     margin-left: 20px;
     border: hsl(233, 100%, 69%);
     color: white;
+    
 }
 .sectC {
     margin-top: 95px;
     display: block;
+    
 }.sectC-img {
     font-size: 18px;
     font-family: 'Bai Jamjuree', sans-serif;
     width: 400px;
     margin-left: 20px;
+    
+}
+.sectC-content {
+    margin-top: 20px;
+    text-align: center;
+}
+.sectD {
+    margin-top: 120px;
+    overflow-x: hidden;
 }
 .sectD-content {
     text-align: center;
     font-size: 20px;
+    
+}
+.sectD-title {
+    color: hsl(210, 10%, 33%);
+    font-size: 45px;
 }
 .sectE-img {
     width: 400px;
+    
 }
 .sectE {
+    overflow-x: hidden;
     text-align: center;
     margin-top: 60px;
-	
 }
 .sectF-title {
     color: hsl(210, 10%, 33%);
-    font-size: 30px;
+    font-size: 38px;
 }
 .sectF {
     text-align: center;
     margin-top: 40px;
     font-size: 22px;
+    overflow-x: hidden;
 }
 .sectG {
     display: block;
     text-align: center;
     margin-top: 50px;
     margin-left: 40px;
+    overflow-x: hidden;
 }
 .sectH {
     display: block;
     margin-top: 50px;
     margin-left: 40px;
+    overflow-x: hidden;
     text-align: center;
+}
+.sectI{
+    overflow-x: hidden;
+    display: block;
+}
 }
 .sectI-title {
     margin-top: -2px;
@@ -98,15 +139,51 @@ button.but2 {
     color: hsl(210, 10%, 33%);
 }
 .sectI-desc {
-    font-size: 28px;
+    font-size: 24px;
     margin-top: -2px;
     color: hsl(210, 10%, 33%);
 }
+.sectJ {
+    background-color: rgb(233, 230, 230);
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+.sectJ-content {
+    display: inline-block;
+    /* margin-top: 120px; */
+    margin-left: 95px;
+}
+.foot-img {
+    width: 60px;
+    margin-top: 20px;
+    /* text-align: center; */
+    margin-left: 75px;
+}
+.foot3 {
+    padding: 8px;
+    margin-left: 30px;
+}
+ul.sectJ-c{
+    margin-top: -50px;
+
+}
+ul.li{
+    padding: 0px 6px
+
+}
+
 
 @media only screen and (max-width: 1024px), only screen and (max-device-width: 1024px){
 	
 }
 @media only screen and (max-width: 1024), only screen and (max-device-width: 1200px){
 	
+}
+/*.sectC-title {
+    font-size: 14px;
+    color: hsl(210, 10%, 33%);
+    font-size: 22px;
+    
 }
   
