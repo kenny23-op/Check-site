@@ -15,6 +15,9 @@ header{
 	padding: 50px;
 	margin: 30px;
 }
+.sectA{
+    overflow-x: hidden;
+}
 h1._sect{
 	font-size: 40px;
 	text-align: center;
@@ -23,26 +26,36 @@ p.bet{
 	text-align: center;
 	margin-top: -20px;
 }
-div.but{
-	text-align: center;
-	margin-top: 30px;
-	position: relative;
+div.but {
+    text-align: center;
+    margin-top: 30px;
+    /* position: relative; */
+    display: block;
+    margin: 55px 144px;
 }
-button.but1{
-	padding: 10px 30px;
-	border-radius: 24px;
-	background-color: hsl(171, 66%, 44%);
+button.but1 {
+    padding: 10px 15px;
+    border-radius: 24px;
+    background-color: hsl(171, 66%, 44%);
     border: hsl(171, 66%, 44%);
     color: white;
+    display: block;
+    width: 199px;
 }
-button.but2{
-	padding: 10px 30px;
-	border-radius: 24px;
-	background-color: hsl(233, 100%, 69%);
-	margin-left: 20px;
+button.but2 {
+    padding: 10px 15px;
+    border-radius: 24px;
+    background-color: hsl(233, 100%, 69%);
+    margin-left: none;
     border: hsl(233, 100%, 69%);
     color: white;
-
+    display: block;
+    width: 199px;
+    margin-top: 20px;
+}
+}
+.sectB{
+    overflow-x: hidden;
 }
 div.key{
 	text-align: center;
@@ -54,6 +67,7 @@ h1.kat{
 .sectC {
     margin-top: 95px;
     display: flex;
+    overflow-x: hidden;
 }
 .sectC-i {
     margin-left: -29px;
@@ -82,6 +96,7 @@ li {
 }
 .sectD {
     margin-top: 120px;
+    overflow-x: hidden;
 }
 .sectD-content {
     text-align: center;
@@ -97,6 +112,7 @@ li {
 .sectE {
     text-align: center;
     margin-top: 60px;
+    overflow-x: hidden;
 }
 .sectE-img{
     width:600px;
@@ -104,6 +120,7 @@ li {
 .sectF {
     text-align: center;
     margin-top: 40px;
+    overflow-x: hidden;
 }
 .sectF-title {
     color: hsl(210, 10%, 33%);
@@ -117,6 +134,7 @@ li {
     text-align: center;
     margin-top: 50px;
     margin-left: 40px;
+    overflow-x: hidden;
 }
 .sectG-content {
     padding: 20px;
@@ -129,9 +147,13 @@ li {
     display: flex;
     margin-top: 50px;
     margin-left: 40px;
+    overflow-x: hidden;
 }
 .sectH-img {
     padding: 56px;
+}
+.sectI{
+    overflow-x: hidden;
 }
 .sectI-content {
     text-align: center;
@@ -171,6 +193,7 @@ li {
     background-color: rgb(233, 230, 230);
     width: 100%;
     height: auto;
+    overflow-x: hidden;
 }
 .sectJ-content {
     display: flex;
