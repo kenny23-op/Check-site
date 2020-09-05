@@ -35,29 +35,59 @@ div.key {
     color: hsl(210, 10%, 33%);
     font-size: 22px;
 }
+div.but {
+    text-align: center;
+    margin-top: auto;
+    /* position: relative; */
+    display: block;
+    margin: 55px 144px;
+}
 button.but1 {
+    width: 199px;
     padding: 10px 15px;
     border-radius: 24px;
     background-color: hsl(171, 66%, 44%);
     border: hsl(171, 66%, 44%);
     color: white;
+    display: block;
 }
 button.but2 {
     padding: 10px 15px;
     border-radius: 24px;
     background-color: hsl(233, 100%, 69%);
-    margin-left: 20px;
+    margin-left: auto;
     border: hsl(233, 100%, 69%);
     color: white;
+    display: block;
+    width: 199px;
+    margin-top: 15px;
+}
+h1.kat {
+    font-size: 40px;
+}
+div.key {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
 }
 .sectC {
     margin-top: 95px;
     display: block;
-}.sectC-img {
+}
+.sectC-img {
     font-size: 18px;
     font-family: 'Bai Jamjuree', sans-serif;
     width: 400px;
-    margin-left: 20px;
+    margin-left: 40px;
+}
+.sectC-content {
+    margin-left: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.sectD-title {
+    color: hsl(210, 10%, 33%);
+    font-size: 45px;
 }
 .sectD-content {
     text-align: center;
@@ -69,11 +99,11 @@ button.but2 {
 .sectE {
     text-align: center;
     margin-top: 60px;
-	
+    
 }
 .sectF-title {
     color: hsl(210, 10%, 33%);
-    font-size: 30px;
+    font-size: 40px;
 }
 .sectF {
     text-align: center;
@@ -98,15 +128,79 @@ button.but2 {
     color: hsl(210, 10%, 33%);
 }
 .sectI-desc {
-    font-size: 28px;
+    font-size: 24px;
     margin-top: -2px;
     color: hsl(210, 10%, 33%);
 }
+.btn-logo {
+    margin: 40px 144px;
+    display: block;
+}
+.btn-first {
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    width: 160px;
+    padding: 12px;
+    border-radius: 20px;
+    border: hsl(171, 66%, 44%);
+    margin-right: auto;
+}
+.btn-second {
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    width: 160px;
+    padding: 12px;
+    border-radius: 20px;
+    border: hsl(233, 100%, 69%);
+    margin-top: 15px;
+}
+.sectJ {
+    background-color: rgb(233, 230, 230);
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+.sectJ-content {
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.sectJ-c {
+    padding: 15px;
+    text-align: center;
+}
+.sectJ-c {
+    padding: 15px;
+    text-align: center;
+}
+div.sectJ-c.top ul{
+
+    margin-top: -40px;
+}
+.foot3 {
+    padding: 8px;
+}
+div.sectJ-c.top3 {
+    margin-top: -40px;
+}
+li {
+    list-style: none;
+}
+.sectJ-d {
+    margin-left: 300px;
+}
+.foot-image {
+    display: flex;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: -99px;
+}
 
 @media only screen and (max-width: 1024px), only screen and (max-device-width: 1024px){
-	
+    
 }
 @media only screen and (max-width: 1024), only screen and (max-device-width: 1200px){
-	
+    
 }
   
